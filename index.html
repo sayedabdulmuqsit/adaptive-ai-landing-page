@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Basics for Beginners | Master AI Without Coding</title>
+  <link rel="icon" type="image/svg+xml" href="fav-icon.svg">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-wrapper"></div>
+<div class="bg-overlay"></div>
+
+<!-- Floating particles -->
+<script>
+  for (let i = 0; i < 20; i++) {
+    const particle = document.createElement('div');
+    particle.className = 'particle';
+    particle.style.left = Math.random() * 100 + '%';
+    particle.style.animationDelay = Math.random() * 20 + 's';
+    particle.style.animationDuration = (15 + Math.random() * 10) + 's';
+    document.body.appendChild(particle);
+  }
+</script>
+
+<div id="aiStatus"></div>
+
+<div class="hero">
+  <h1>AI Basics for Beginners</h1>
+  <p class="subtitle">
+    Master Artificial Intelligence in simple language.<br>
+    No coding • No technical background • No fear
+  </p>
+  <button id="enrollBtn" class="cta">Start Your AI Journey</button>
+  <div class="scroll-indicator"></div>
+</div>
+
+<div class="container">
+  <div class="features reveal">
+    <div class="card">
+      <span class="card-icon">🤖</span>
+      <strong>Understand AI Fundamentals</strong><br>
+      Clear explanations of what AI really is and how it works
+    </div>
+    <div class="card">
+      <span class="card-icon">🌍</span>
+      <strong>Real-World Applications</strong><br>
+      Discover how AI is changing industries and daily life
+    </div>
+    <div class="card">
+      <span class="card-icon">🎓</span>
+      <strong>Beginner-Friendly</strong><br>
+      Perfect for students and non-technical learners
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="section reveal">
+      <h2>Who is this course for?</h2>
+      <p>
+        Whether you're a student, professional, or simply curious about technology, this course is designed for anyone who wants to understand AI without getting lost in technical jargon or complex coding. We break down artificial intelligence into simple, digestible concepts that anyone can grasp.
+      </p>
+    </div>
+
+    <div class="section reveal">
+      <h2>What you will learn</h2>
+      <p>
+        Explore the fundamentals of artificial intelligence, machine learning, and neural networks through practical examples. Learn how tools like ChatGPT work, understand the difference between AI and automation, discover ethical considerations in AI development, and gain the confidence to use AI tools safely and effectively in your personal and professional life.
+      </p>
+    </div>
+
+    <div class="section reveal">
+      <h2>Why learn AI now?</h2>
+      <p>
+        AI is revolutionizing every industry from healthcare to entertainment, education to finance. Understanding AI isn't just about staying relevant—it's about empowering yourself to thrive in a technology-driven future. Early adopters gain competitive advantages in their careers and make more informed decisions about the technology that shapes our world.
+      </p>
+    </div>
+
+    <div class="section reveal">
+      <h2>Why trust this course?</h2>
+      <p>
+        Unlike technical courses that overwhelm beginners with jargon, we teach AI like a story—engaging, clear, and memorable. Our approach is pressure-free and focuses on building genuine understanding rather than memorization. Thousands of beginners have successfully completed this course and confidently use AI in their daily lives.
+      </p>
+    </div>
+
+    <div class="price-box reveal">
+      <div class="price">₹999</div>
+      <div class="price-note">One-time payment • Lifetime access • 30-day money-back guarantee</div>
+      <button class="cta" style="margin-top: 30px;">Enroll Now</button>
+    </div>
+
+    <div id="adminDashboard" class="reveal">
+      <h2>📊 Live Analytics Dashboard</h2>
+      <p>👥 Total Visitors: <span id="totalUsers">0</span></p>
+      <p>🟢 Engaged Users: <span id="engagedUsers">0</span></p>
+      <p>🟡 Users Needing Guidance: <span id="mildUsers">0</span></p>
+      <p>🔴 Users Getting Extra Help: <span id="highUsers">0</span></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
